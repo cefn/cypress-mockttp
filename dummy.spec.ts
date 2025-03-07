@@ -9,7 +9,7 @@ before(async () => {
   // Starts the server on a dynamic port. The port number that can later be
   // retrieved as server.url
   await server.start()
-  await server.get("/mocked-path").thenReply(200, mockedResponse)
+  await server.forGet("/mocked-path").thenReply(200, mockedResponse)
 })
 
 after(async () => {
