@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^14.1.0",
-    "mockttp": "^0.20.1",
+    "mockttp": "1.2.2",
     "start-server-and-test": "^1.11.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
